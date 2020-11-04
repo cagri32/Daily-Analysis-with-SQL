@@ -3,7 +3,7 @@ SELECT TOP(100) [Id]
 	,[TransactionID]
 	,[TimeOfDeal]         
 FROM [DT_Archive_testing].[dbo].[Tickets] 
-WHERE	DealId like 'RTNS#%'
+WHERE	DealId like 'RTS#%'
 	and TimeOfDeal > '2019-01-01 00:00:00'
 	and TransactionID in (
 '3MU2MRRYJLOY6202',
