@@ -22,8 +22,13 @@ The task is scheduled to run every day using schtasks command:
 schtasks /create /tn Check2 /tr "cmd.exe /C 'type C:\files\mysql\commands.txt|cmd'" /sc daily /st 12:10:50 /sd 11/05/2020
 
 /tn Task Name
+
 /tr Task to be run
+
 /C command to be passed to the task
+
 /sc Frequency of the task
+
 /sd Start Date of the task
+
 /st Start Time of the task
